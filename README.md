@@ -1,0 +1,3 @@
+This repository demonstrates a common Python bug: forgetting to close a file after opening it.  The bug.py file shows the incorrect code with an unclosed file handle. The bugSolution.py file provides a corrected version which addresses the issue using a context manager to ensure the file is properly closed, even if errors occur. 
+
+This is a crucial example as unclosed file handles can lead to resource exhaustion and data corruption in applications, especially when dealing with many files concurrently.
